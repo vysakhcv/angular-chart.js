@@ -28,7 +28,6 @@ angular.module('app', ['chart.js'])
         }]
       }
     };
-
     createChart();
     $interval(createChart, 2000);
 
